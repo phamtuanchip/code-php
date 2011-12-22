@@ -1,0 +1,25 @@
+# cPanel -- If you edit this file directly you must run /scripts/updateuserdomains afterwards to rebuild the system caches
+BWLIMIT=unlimited
+CONTACTEMAIL=sonha13122006@yahoo.com
+CONTACTEMAIL2=
+DEMO=0
+DNS=keutoursvietnam.com
+FEATURELIST=default
+HASCGI=1
+IP=173.236.60.34
+LOCALE=en
+MAXADDON=unlimited
+MAXFTP=unlimited
+MAXLST=unlimited
+MAXPARK=unlimited
+MAXPOP=unlimited
+MAXSQL=unlimited
+MAXSUB=unlimited
+MTIME=1278918889
+MXCHECK-keutoursvietnam.com=0
+OWNER=root
+PLAN=JBUS
+RS=x3
+STARTDATE=1276682620
+USER=keutour1
+XDNS1=keutoursvietnam.keutoursvietnam.com

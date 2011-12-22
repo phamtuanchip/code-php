@@ -1,0 +1,28 @@
+; cPanel 11.25.0-STABLE_46156
+; Zone file for keutoursvietnam.com
+$TTL 14400
+@      86400	IN      SOA     ns1.pipedns.com. dnsadmin.cx15.justhost.com. (
+		2010071201	; serial, todays date+todays
+		86400		; refresh, seconds
+		7200		; retry, seconds
+		3600000		; expire, seconds
+		86400 )		; minimum, seconds
+
+keutoursvietnam.com. 86400 IN NS ns1.pipedns.com.
+keutoursvietnam.com. 86400 IN NS ns2.pipedns.com.
+keutoursvietnam.com. 86400 IN NS ns3.pipedns.com.
+
+
+keutoursvietnam.com. IN A 173.236.60.34
+
+localhost.keutoursvietnam.com. IN A 127.0.0.1
+
+keutoursvietnam.com. IN MX 0 keutoursvietnam.com.
+
+mail IN CNAME keutoursvietnam.com.
+www IN CNAME keutoursvietnam.com.
+ftp IN A 173.236.60.34
+cpanel IN A 173.236.60.34
+whm IN A 173.236.60.34
+webmail IN A 173.236.60.34
+webdisk IN A 173.236.60.34
