@@ -1,0 +1,9 @@
+vti_encoding:SR|utf8-nl
+servertype:apache-fp
+authoring:enabled
+extenderversion:5.0.2.4803
+frontpageroot:/usr/local/frontpage/version5.0
+serverconfig:/usr/local/apache/conf/sites/keutoursvietnam.com.conf
+SMTPHost:127.0.0.1
+SendmailCommand:/usr/sbin/sendmail
+MailSender:webmaster@keutoursvietnam.com
